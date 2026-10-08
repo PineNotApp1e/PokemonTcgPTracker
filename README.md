@@ -12,4 +12,4 @@
 
 &#x09;Avoir des information sur toutes les cartes.
 
-&#x09;Systeme d'échange entre personne.
+&#x09;Avoir un système d'échange entre personne.
