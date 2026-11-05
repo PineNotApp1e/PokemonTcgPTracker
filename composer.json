@@ -1,0 +1,16 @@
+{
+    "name": "nathanael/pokemon",
+    "description": "permet de tracker les carte du jeu pokemon tcgp",
+    "type": "projet",
+    "license": "MIT",
+    "require": {
+        "vlucas/phpdotenv": "^5.8",
+        "slim/slim": "^4.15",
+        "slim/psr7": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
