@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Salut</h1>
+    <a href="/data">data</a>
+    <a href="/signup">S'enregistrer</a>
 </body>
 </html>

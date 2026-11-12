@@ -1,8 +1,11 @@
 <?php
 use App\Controllers\AccueilController;
-use App\Controllers\EquipesController;
+use App\Controllers\DataController;
+use App\Controllers\ConnectionController;
 use Slim\App;
 return function (App $app) {
     $app->get('/', [AccueilController::class, 'index']);
-    $app->get('/equipes', [EquipesController::class, 'getAllEquipes']);
+    $app->get('/data', [DataController::class, 'render']);
+    $app->get('/signup', [ConnectionController::class, 'afficherFormulaire']);
+    $app->post('/signup', [ConnectionController::class, 'traiterFormulaire']);
 };
