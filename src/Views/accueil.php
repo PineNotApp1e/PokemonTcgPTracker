@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="/data">data</a>
+    <a href="/signin">data</a>
     <a href="/signup">S'enregistrer</a>
 </body>
 </html>
